@@ -2,7 +2,7 @@ const $ = document.querySelector.bind(document);
 const x = document.createElement.bind(document);
 
 const reposUrl = "https://api.github.com/orgs/you-apps/repos";
-const membersUrl = "https://api.github.com/orgs/you-apps/members";
+const membersUrl = "https://api.github.com/orgs/fuydg-tim/members";
 
 async function fetchJson(url) {
   const response = await fetch(url);
