@@ -5,20 +5,22 @@
 }
 
 :root {
-  --bg: #1e1e2e;
-  --fg: #cdd6f4;
-  --ac: #cba6f7;
+  /* Material Blue Dark Scheme */
+  --bg: #1A237E; /* Indigo 900 */
+  --fg: #E3F2FD; /* Blue 50 */
+  --ac: #64B5F6; /* Blue 300 */
   --icon-filter: invert(1);
-  --star-filter: none;
+  --star-filter: invert(1);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #eff1f5;
-    --fg: #4c4f69;
-    --ac: #8839ef;
+    /* Material Blue Light Scheme */
+    --bg: #E3F2FD; /* Blue 50 */
+    --fg: #1A237E; /* Indigo 900 */
+    --ac: #2196F3; /* Blue 500 */
     --icon-filter: none;
-    --star-filter: invert(1);
+    --star-filter: none;
   }
 }
 
