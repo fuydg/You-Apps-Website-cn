@@ -5,20 +5,20 @@
 }
 
 :root {
-  /* Material Blue Dark Scheme */
-  --bg: #1A237E; /* Indigo 900 */
-  --fg: #E3F2FD; /* Blue 50 */
-  --ac: #64B5F6; /* Blue 300 */
+  /* Material You Blue Dark Scheme */
+  --bg: #0D1D32; /* Dark Blue Background */
+  --fg: #D7E3F8; /* Light Blue Foreground/Text */
+  --ac: #A0C9FF; /* Light Blue Accent */
   --icon-filter: invert(1);
   --star-filter: invert(1);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Material Blue Light Scheme */
-    --bg: #E3F2FD; /* Blue 50 */
-    --fg: #1A237E; /* Indigo 900 */
-    --ac: #2196F3; /* Blue 500 */
+    /* Material You Blue Light Scheme */
+    --bg: #EDF3FF; /* Very Light Blue Background */
+    --fg: #001A41; /* Dark Blue Foreground/Text */
+    --ac: #3A64A0; /* Medium Blue Accent */
     --icon-filter: none;
     --star-filter: none;
   }
