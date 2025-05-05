@@ -5,3 +5,19 @@ Feel free to report bugs concerning the website or suggest changes or features i
 This is the source code of `You-Apps Website]`'s Chinese community translation website.
 
 Please feel free to report translation errors in the issue tracking system.
+
+## File tree `Directory tree`
+
+```tree
+.
+├── CNAME
+├── LICENSE
+├── README.md
+├── app.js
+├── assets
+│   ├── github.svg
+│   ├── matrix.svg
+│   └── star.svg
+├── index.html
+└── style.css
+```
